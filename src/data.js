@@ -47,19 +47,74 @@
             ]
         },
         {
-            catogery:"Fresh Fruits"
+            catogery:"Fresh Fruits",
+            firstHover:[
+                {
+                    catogery:"Fresh"
+                },
+                {
+                    catogery:"Fruits"
+                },
+                {
+                    catogery:"food"
+                },
+            ]
         },
         {
-            catogery:"Organic Fruits And Vegitables"
+            catogery:"Organic Fruits And Vegitables",
+            firstHover:[
+                {
+                    catogery:"Organic"
+                },
+                {
+                    catogery:"Fruits"
+                },
+                {
+                    catogery:"Vegitables"
+                },
+            ]
         },
         {
-            catogery:"Cut And Sprouts"
+            catogery:"Cut And Sprouts",
+            firstHover:[
+                {
+                    catogery:"Cut"
+                },
+                {
+                    catogery:"Sprouts"
+                },
+                {
+                    catogery:"Vegitables"
+                },
+            ]
         },
         {
-            catogery:"Exotic Fruits and Vegies"
+            catogery:"Exotic Fruits and Vegies",
+             firstHover:[
+                {
+                    catogery:"Exotic"
+                },
+                {
+                    catogery:"Fruits"
+                },
+                {
+                    catogery:"Vegies"
+                },
+            ]
         },
         {
-            catogery:"Flower Boquet,Bunches"
+            catogery:"Flower Boquet,Bunches",
+            firstHover:[
+                {
+                    catogery:"Flower"
+                },
+                {
+                    catogery:"Boquet"
+                },
+                {
+                    catogery:"Bunches"
+                },
+            ]
         }
         ]
      },
@@ -70,16 +125,37 @@
         catogery:"FoodGrains , Oil & Masala  ",
         firstHover:[
             {
-                catogery:"Oats"
+                catogery:"Oats",
+                firstHover:[
+                    {
+                        catogery:" Healthy Oats"
+                    },
+                ]
             },
             {
-                catogery:"Coconut oil"
+                catogery:"Coconut oil",
+                firstHover:[
+                    {
+                        catogery:"oily"
+                    },
+                ]
             },
             {
-                catogery:"Chat Masala"
+                catogery:"Chat Masala",
+                firstHover:[
+                    {
+                        catogery:"yummy"
+                    },
+                ]
+                
             },
             {
-                catogery:"Spicy Masala"
+                catogery:"Spicy Masala",
+                firstHover:[
+                    {
+                        catogery:"chat"
+                    },
+                ]
             },
         ]
        
@@ -89,13 +165,28 @@
         catogery:"Bakery , Cakes & Dairy",
         firstHover:[
             {
-                catogery:"Biscuts"
+                catogery:"Biscuts",
+                firstHover:[
+                    {
+                        catogery:"crispy"
+                    },
+                ]
             },
             {
-                catogery:"Black Forest"
+                catogery:"Black Forest",
+                firstHover:[
+                    {
+                        catogery:"cake"
+                    },
+                ]
             },
             {
-                catogery:"Chocalate"
+                catogery:"Chocalate",
+                firstHover:[
+                    {
+                        catogery:"cream"
+                    },
+                ]
             },
         ]
     },
@@ -104,13 +195,28 @@
         catogery:"Beverages",
         firstHover:[
             {
-                catogery:"water"
+                catogery:"water",
+                firstHover:[
+                    {
+                        catogery:"pure"
+                    },
+                ]
             },
             {
-                catogery:"Milk"
+                catogery:"Milk",
+                firstHover:[
+                    {
+                        catogery:"good drink"
+                    },
+                ]
             },
             {
-                catogery:"Beer"
+                catogery:"Beer",
+                firstHover:[
+                    {
+                        catogery:"chill"
+                    },
+                ]
             },
         ]
     },
@@ -118,14 +224,29 @@
     {
         catogery:"snacks and Branded Food",
         firstHover:[{
-            catogery:"Egg cutlet"
+            catogery:"Egg cutlet",
+            firstHover:[
+                {
+                    catogery:"yummy"
+                },
+            ]
         },
         {
-            catogery:"Chicken"
+            catogery:"Chicken",
+            firstHover:[
+                {
+                    catogery:"fry"
+                },
+            ]
             
         },
         {
-            catogery:"Mutton"
+            catogery:"Mutton",
+            firstHover:[
+                {
+                    catogery:"cury"
+                },
+            ]
         },
     ]
     },
@@ -134,10 +255,20 @@
         catogery:"Beauty And Hygiene",
         firstHover:[
             {
-                catogery:"Farenlovely"
+                catogery:"Farenlovely",
+                firstHover:[
+                    {
+                        catogery:"cute "
+                    },
+                ]
             },
             {
-                catogery:"Santoor"
+                catogery:"Santoor",
+                firstHover:[
+                    {
+                        catogery:"soap"
+                    },
+                ]
             },
         ]
     },
@@ -146,24 +277,138 @@
         catogery:"Cleaning and Household",
         firstHover:[
             {
-                catogery:"dish wash"
+                catogery:"dish wash",
+                firstHover:[
+                    {
+                        catogery:"clean"
+                    },
+                ]
             },
             {
-                catogery:"glass bottles"
+                catogery:"glass bottles",
+                firstHover:[
+                    {
+                        catogery:"bottles"
+                    },
+                ]
             },
         ]
     },
-    
+    //8th data
      {
-        catogery:"Kitchen, Garden and Pets"
+        catogery:"Kitchen, Garden and Pets",
+        firstHover:[
+            {
+                catogery:"Kitchen",
+                firstHover:[
+                    {
+                        catogery:"food on time"
+                    },
+                ]
+            },
+            {
+                catogery:"Garden",
+                firstHover:[
+                    {
+                        catogery:"flower"
+                    },
+                ]
+            },
+            {
+                catogery:"Pets",
+                firstHover:[
+                    {
+                        catogery:"cat"
+                    },
+                ]
+            },
+        ]
     },
      {
-        catogery:"Eggs,Meat and Fish"
+        catogery:"Eggs,Meat and Fish",
+        firstHover:[
+            {
+                catogery:"Eggs",
+                firstHover:[
+                    {
+                        catogery:"Coconut"
+                    },
+                ]
+            },
+            {
+                catogery:"Meat",
+                firstHover:[
+                    {
+                        catogery:"healthy meat"
+                    },
+                ]
+            },
+            {
+                catogery:"Fish",
+                firstHover:[
+                    {
+                        catogery:"fresh fish"
+                    },
+                ]
+            },
+        ]
     },
     {
-        catogery:"gourmet and World Food"
+        catogery:"gourmet and World Food",
+        firstHover:[
+            {
+                catogery:"gourmet",
+                firstHover:[
+                    {
+                        catogery:"good taste"
+                    },
+                ]
+            },
+            {
+                catogery:"World",
+                firstHover:[
+                    {
+                        catogery:"food"
+                    },
+                ]
+            },
+            {
+                catogery:"Food",
+                firstHover:[
+                    {
+                        catogery:"good food"
+                    },
+                ]
+            },
+        ]
     },
     {
-        catogery:"Babycare "
+        catogery:"Babycare ", 
+        firstHover:[
+            {
+                catogery:"Baby",
+                firstHover:[
+                    {
+                        catogery:"soft skin"
+                    },
+                ]
+            },
+            {
+                catogery:"care",
+                firstHover:[
+                    {
+                        catogery:"perfect care"
+                    },
+                ]
+            },
+            {
+                catogery:"Food",
+                firstHover:[
+                    {
+                        catogery:"fresh food"
+                    },
+                ]
+            },
+        ]
     },
  ]

@@ -30,7 +30,7 @@ function App() {
       <div className='Hover'>
         <div className='first-hover'>
           {
-            firstHover == true && data &&  data.map((item, index) => <DropDown data={item.catogery} index={index} setIndex={setIndex} HoverSetup={setSecondHover} />)
+            firstHover == true && data &&  data.map((item, index) => <DropDown data={item.catogery} index={index} setIndex={setIndex} HoverSetup={setSecondHover} setTird={setSecondIndex} />)
           }
         </div>
 
@@ -42,7 +42,7 @@ function App() {
 
       <div>
         {
-           thirdData && SecondIndex !== "" && thirdData.map((item,index)=> <DropDown data={item.catogery} index={index} setIndex={setSecondIndex} HoverSetup={setTghirdHover} /> )
+           thirdData && SecondIndex !== "" && thirdData.map((item,index)=> <DropDown data={item.catogery} index={index} setIndex={setSecondIndex}  /> )
         }
       </div>
 
