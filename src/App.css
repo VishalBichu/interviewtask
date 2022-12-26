@@ -1,0 +1,74 @@
+.main{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-rows: 10%,90%;
+}
+.Navbar{
+  width: 100%;
+  height:100% ;
+  background-color: aqua;
+  display: flex;
+}
+.shop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 3rem;
+  background-color: chartreuse;
+  text-align: center;
+  padding: .5rem .5rem;
+}
+.shop p{
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+}
+.arrow{
+  font-size: xx-large;
+  color: azure;
+}
+.offer{
+  display: flex;
+  background-color: azure;
+  color: gray;
+  width: 70%;
+  height: 3rem;
+  justify-content: start;
+  gap:.3rem ;
+  align-items: center;
+  padding: .5rem .5rem;
+  font-size: large;
+  font-weight: bold;
+}
+.tag{
+  color: red;
+}
+.Hover{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.drop-down{
+  width: 100%;
+  height: auto;
+  padding: .05rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: rgba(0, 0, 0, 0.466);
+  border: solid;
+  border-width: .01rem;
+
+}
+.drop-down:hover{
+  background-color: gray;
+}
+.first-hover{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+}
